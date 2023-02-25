@@ -1,4 +1,4 @@
-import { AiFillPhone } from "react-icons/ai";
+import { AiFillPhone } from "react-icons/ai/index.js";
 
 function Nav() {
   return (

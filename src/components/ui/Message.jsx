@@ -1,4 +1,4 @@
-import { useState } from "react";
+import react, { useState } from "react";
 
 export default function Message() {
   const [message, setMessage] = useState(true);

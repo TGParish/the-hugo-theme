@@ -1,7 +1,7 @@
-import { useState, useEffect } from "react";
-import { AiFillPhone } from "react-icons/ai";
-import {GrMail} from 'react-icons/gr'
-import {MdMapsHomeWork} from 'react-icons/md'
+import react, { useState, useEffect } from "react";
+import { AiFillPhone } from "react-icons/ai/index.js";
+import {GrMail} from 'react-icons/gr/index.js'
+import {MdMapsHomeWork} from 'react-icons/md/index.js'
 
 
 export default function () {

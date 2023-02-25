@@ -1,5 +1,4 @@
 
-
 export default function ServicesCard({
   heading,
   kitchen,

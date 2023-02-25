@@ -1,4 +1,4 @@
-import { IoStarSharp } from "react-icons/io5";
+import { IoStarSharp } from "react-icons/io5/index.js";
 
 export default function Testimonials() {
   return (
