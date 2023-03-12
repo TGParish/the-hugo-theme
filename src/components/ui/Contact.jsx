@@ -11,7 +11,7 @@ export default function () {
     success,
     failure = true;
   return (
-    <section id="contact" className="mt-8">
+    <section id="contact" className="mt-8 mx-4">
       <h2 className="mt-4 text-center font-roboto text-3xl font-bold">
         Contact Us
       </h2>

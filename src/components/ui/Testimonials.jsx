@@ -2,14 +2,14 @@ import { IoStarSharp } from "react-icons/io5/index.js";
 
 export default function Testimonials() {
   return (
-    <section id="testimonials" className="mt-8 flex flex-col items-center">
+    <section id="testimonials" className="mt-6 flex flex-col items-center mx-4">
       <h2 className="text-center font-roboto text-3xl font-bold">
         Testimonials
       </h2>
       <p className="mt-2 text-center font-montserrat">
         Here's what people are saying about our work!
       </p>
-      <article className="mx-2 mt-2 flex flex-col items-center justify-center rounded bg-slate-50 p-6 font-montserrat shadow-md lg:w-[40rem]">
+      <article className=" mt-2 flex flex-col items-center justify-center rounded bg-slate-50 p-6 font-montserrat shadow-md lg:w-[40rem]">
         <blockquote>
           <p>
             "The website is elegant, simple, and to the point."

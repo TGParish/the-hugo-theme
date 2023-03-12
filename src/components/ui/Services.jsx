@@ -3,12 +3,12 @@ import ServicesCard from "./cards/ServicesCard";
 export default function Services() {
   return (
     <section id="services">
-      <div id="services-header" className="mt-4">
+      <div id="services-header" className="mt-6">
         <h2 className="text-center font-roboto text-3xl font-bold">Services</h2>
       </div>
       <div
         id="card-container"
-        className="mx-2 mt-2 flex flex-col items-center gap-6 lg:flex-row lg:items-end lg:justify-center"
+        className="mx-4 mt-2 flex flex-col items-center gap-6 lg:flex-row lg:items-end lg:justify-center"
       >
         <ServicesCard kitchen heading={"Kitchen Tile"}>
           A good tile job can last the life time of your house and adds value.
