@@ -4,7 +4,7 @@ function Nav() {
   return (
     <nav className=" bg-green-600 py-4 ">
       <div className="flex h-full w-full flex-col items-center space-y-2">
-        <div className="flex font-merriweather text-xl text-white">
+        <div className="flex font-merriweather text-xl text-white font-bold">
           <a href="/">The Hugo Theme</a>
         </div>
         <ul className="flex space-x-4 text-white">
