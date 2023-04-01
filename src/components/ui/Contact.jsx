@@ -16,7 +16,7 @@ export default function () {
         Contact Us
       </h2>
       <div className="flex h-full flex-col justify-center">
-        <form className="mb-4 mx-auto w-full px-2 lg:w-[40rem]">
+        <form className="mb-4 mx-auto w-full md:max-w-[40rem]">
           <p className="mt-2 font-montserrat">
             This form is for demonstration purposes only and does not do anything
             but look good, contact me through{" "}

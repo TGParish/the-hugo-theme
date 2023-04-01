@@ -1,7 +1,7 @@
 export default function Hero() {
   return (
     <div className="flex h-[40rem] w-full flex-col items-center justify-center bg-[url('/images/tile.jpg')] bg-cover bg-center bg-no-repeat text-white lg:bg-fixed xl:h-[40rem] 2xl:h-[80rem]">
-      <div className="max-w-[30rem] px-4">
+      <div className="md:max-w-[40rem] mx-4 md:mx-0">
         <h1 className="font-roboto text-[3rem] font-bold leading-tight">
           Make a statement with this minimalist and modern design.
         </h1>

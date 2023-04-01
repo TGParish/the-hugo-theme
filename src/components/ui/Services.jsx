@@ -1,4 +1,4 @@
-import ServicesCard from "./cards/ServicesCard";
+import ServicesCard from './cards/ServicesCard';
 
 export default function Services() {
   return (
@@ -10,20 +10,20 @@ export default function Services() {
         id="card-container"
         className="mx-4 mt-2 flex flex-col items-center gap-6 lg:flex-row lg:items-end lg:justify-center"
       >
-        <ServicesCard kitchen heading={"Kitchen Tile"}>
-          A good tile job can last the life time of your house and adds value.
-          We only use the best materials so you can enjoy your house for many
-          years to come.
+        <ServicesCard dev heading={'Web Development'}>
+          Think of a website as your online ambassador. It shows potential
+          clients that you care about your brand's image and gives them a way to
+          find out about your services.
         </ServicesCard>
-        <ServicesCard shower heading={"Shower Tile"}>
-          A shower remodel is a great way to spruce up a dated bathroom. We use
-          tile specifically intended for wet areas so you never have an issue with
-          your new investment.
+        <ServicesCard design heading={'Web Design'}>
+          Not only does a website have to function well, but it needs to look
+          good, too. A well designed website delights the eye, while a poorly
+          made one sends people running for the hills.
         </ServicesCard>
-        <ServicesCard backsplash heading={"Backsplash Installation"}>
-          A kitchen backsplash is the perfect way to bring new life into a
-          kitchen and update its look. New floor tile in combination with a
-          backsplash will add value to your home.
+        <ServicesCard hosting heading={'Hosting'}>
+          Managing a website can be a full-time job in itself. I offer hosting
+          to my clients to ensure the site is always up and running, resolving
+          any server issues that come up.
         </ServicesCard>
       </div>
     </section>
