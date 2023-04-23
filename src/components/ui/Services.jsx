@@ -8,7 +8,7 @@ export default function Services() {
       </div>
       <div
         id="card-container"
-        className="mx-4 mt-2 flex flex-col items-center gap-6 lg:flex-row lg:items-end lg:justify-center"
+        className="mx-4 mt-2 flex flex-col items-center gap-6 lg:flex-row lg:items-end lg:justify-center "
       >
         <ServicesCard dev heading={'Web Development'}>
           Think of a website as your online ambassador. It shows potential
