@@ -2,7 +2,7 @@ import {
   HiOutlineDesktopComputer,
   HiOutlinePencil,
   HiServer,
-} from 'react-icons/hi';
+} from 'react-icons/hi/index.js';
 import { FaPencilRuler } from 'react-icons/fa';
 
 export default function ServicesCard({
@@ -30,7 +30,7 @@ export default function ServicesCard({
       <p className="font-montserrat text-gray-700">{children}</p>
       <div className="mt-4 flex justify-center">
         <a href="/sample">
-          <button className="rounded bg-green-500 p-2 text-white hover:bg-green-700">
+          <button className="rounded bg-primary-color p-2 text-white hover:bg-primary-hover">
             Learn More
           </button>
         </a>

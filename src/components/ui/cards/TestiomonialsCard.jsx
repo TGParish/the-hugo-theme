@@ -7,7 +7,7 @@ export default function TestimonialsCard({ testimonial, author }) {
         <p>{testimonial}</p>
         <p className="pt-2">-{author}</p>
       </blockquote>
-      <div className="flex pt-2">
+      <div className="flex gap-2 pt-2">
         <IoStarSharp className="h-[3rem] w-[3rem] text-yellow-500" />
         <IoStarSharp className="h-[3rem] w-[3rem] text-yellow-500" />
         <IoStarSharp className="h-[3rem] w-[3rem] text-yellow-500" />

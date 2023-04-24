@@ -9,16 +9,10 @@ module.exports = {
         '2xl': '1536px',
       },
       colors: {
-        'primary-color': '#22c55e',
-        'vibrant-green': '#22c55e',
-        'lake-placid-blue': 'rgb(85, 108, 182)',
-        'border-button-light': 'rgb(212, 108, 199)',
-        'border-button-dark': 'rgb(34, 68, 179)',
-        fontcolorII: 'rgb(85, 108, 182)',
-        sitecolor: 'vibrant-green',
+        'primary-color': '#16a34a',
+        'primary-hover': '#15803d',
       },
       fontFamily: {
-        alkalami: ['Alkalami', 'serif'],
         merriweather: ['Merriweather', 'serif'],
         montserrat: ['Montserrat', 'sans-serif'],
         roboto: ['Roboto', 'sans-serif'],
@@ -39,23 +33,22 @@ module.exports = {
             },
             a: {
               textDecoration: 'underline',
-              textDecorationColor: theme('colors.vibrant-green'),
+              textDecorationColor: theme('colors.primary-color'),
               textDecorationThickness: '4px',
               '&:hover': {
-                textDecorationColor: theme('colors.light-blue'),
+                textDecorationColor: theme('colors.primary-hover'),
               },
             },
             blockQuote: {
               borderLeft: '4px solid',
-              borderLeftColor: theme('colors.vibrant-green'),
+              borderLeftColor: theme('colors.primary-color'),
               '& p:first-of-type::before': {
                 content: 'none',
               },
               a: {
                 textAlign: 'center',
                 textDecoration: 'none',
-                color: 'black',
-                fontColor: theme('colors.gray.500'),
+
                 '&:hover': {
                   borderBottom: '2px',
                   borderBottomStyle: 'solid',

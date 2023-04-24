@@ -1,10 +1,10 @@
-import { AiFillPhone } from "react-icons/ai/index.js";
+import { AiFillPhone } from 'react-icons/ai/index.js';
 
 function Nav() {
   return (
-    <nav className=" bg-green-600 py-4 ">
+    <nav className="bg-primary-color py-4 ">
       <div className="flex h-full w-full flex-col items-center space-y-2">
-        <div className="flex font-merriweather text-xl text-white font-bold">
+        <div className="flex font-merriweather text-xl font-bold text-white">
           <a href="/">The Hugo Theme</a>
         </div>
         <ul className="flex space-x-4 text-white">
